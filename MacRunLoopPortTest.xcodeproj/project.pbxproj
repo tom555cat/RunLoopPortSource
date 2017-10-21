@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58A607F31F963A1100ADFF7E /* MyWorkerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A607F21F963A1100ADFF7E /* MyWorkerClass.m */; };
 		58B20F051F9638C700BDA668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B20F041F9638C700BDA668 /* AppDelegate.m */; };
 		58B20F081F9638C700BDA668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B20F071F9638C700BDA668 /* ViewController.m */; };
 		58B20F0A1F9638C700BDA668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B20F091F9638C700BDA668 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58A607F11F963A1100ADFF7E /* MyWorkerClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWorkerClass.h; sourceTree = "<group>"; };
+		58A607F21F963A1100ADFF7E /* MyWorkerClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWorkerClass.m; sourceTree = "<group>"; };
 		58B20F001F9638C700BDA668 /* MacRunLoopPortTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRunLoopPortTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B20F031F9638C700BDA668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58B20F041F9638C700BDA668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 				58B20F041F9638C700BDA668 /* AppDelegate.m */,
 				58B20F061F9638C700BDA668 /* ViewController.h */,
 				58B20F071F9638C700BDA668 /* ViewController.m */,
+				58A607F11F963A1100ADFF7E /* MyWorkerClass.h */,
+				58A607F21F963A1100ADFF7E /* MyWorkerClass.m */,
 				58B20F091F9638C700BDA668 /* Assets.xcassets */,
 				58B20F0B1F9638C700BDA668 /* Main.storyboard */,
 				58B20F0E1F9638C700BDA668 /* Info.plist */,
@@ -140,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58A607F31F963A1100ADFF7E /* MyWorkerClass.m in Sources */,
 				58B20F081F9638C700BDA668 /* ViewController.m in Sources */,
 				58B20F101F9638C700BDA668 /* main.m in Sources */,
 				58B20F051F9638C700BDA668 /* AppDelegate.m in Sources */,
